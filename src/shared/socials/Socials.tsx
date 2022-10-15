@@ -23,7 +23,7 @@ interface Props {
 
 export const Socials: FC<Props> = ({ resume = true, exclude, delay = 800 }) => {
     return (
-        <HStack spacing="5">
+        <HStack spacing={{base: 1, md: 5}}>
             {resume && (
                 <>
                     <Button data-aos="fade" data-aos-delay={delay} size="sm" borderRadius="xl" mr="2" onClick={onResumeOpen}>

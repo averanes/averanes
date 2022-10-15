@@ -1,11 +1,11 @@
-import { FC } from "react";
+import {FC} from "react";
 
-import { Center, Container, Heading, Image, HStack, Stack, Flex, Box, IconButton, Button } from "@chakra-ui/react";
+import {Center, Container, Heading, Image, HStack, Stack, Flex, Box, IconButton, Button} from "@chakra-ui/react";
 
-import { Content, configs, useContent, MarkdownFile } from "shared/content/Content";
-import { Socials } from "shared/socials/Socials";
-import { WorkPageId } from "utils/useScroll";
-import { ChevronDownIcon } from "utils/Icons";
+import {Content, configs, useContent, MarkdownFile} from "shared/content/Content";
+import {Socials} from "shared/socials/Socials";
+import {WorkPageId} from "utils/useScroll";
+import {ChevronDownIcon} from "utils/Icons";
 
 export const Landing: FC = () => {
     const content = useContent(MarkdownFile.Landing);
@@ -14,18 +14,18 @@ export const Landing: FC = () => {
         const featuredHeader = document.getElementById(WorkPageId);
 
         if (featuredHeader) {
-            featuredHeader.scrollIntoView({ behavior: "smooth" });
+            featuredHeader.scrollIntoView({behavior: "smooth"});
         }
     };
 
     return (
         <Box id="page-landing">
-            <Center pb={{ base: 16, md: 32 }}>
+            <Center pb={{base: 16, md: 32}}>
                 <HStack spacing="16" justifyContent="space-between" alignItems="flex-start">
-                    <Stack flex={{ base: "1", lg: "0.6" }} spacing="16">
+                    <Stack flex={{base: "1", lg: "0.6"}} spacing="16">
                         <Stack spacing="8">
                             <Heading
-                                fontSize={{ base: "5xl", md: "7xl" }}
+                                fontSize={{base: "5xl", md: "7xl"}}
                                 lineHeight="1"
                                 data-aos="fade-down"
                                 data-aos-delay="400"
@@ -37,18 +37,18 @@ export const Landing: FC = () => {
                             </Content>
                         </Stack>
 
-                        <Socials delay={1000} />
+                        <Socials delay={1000}/>
                     </Stack>
                     <Container
                         alignItems="center"
                         flex="0.4"
-                        display={{ base: "none", lg: "block" }}
+                        display={{base: "none", lg: "block"}}
                         data-aos="fade-up"
                         data-aos-delay="400"
                     >
                         <picture>
                             <source type="image/jpeg" src={configs.landing.picture}></source>
-                            <Image borderRadius="xl" src={configs.landing.picture} alt={`face-cover-image`} />
+                            <Image borderRadius="xl" src={configs.landing.picture} alt={`face-cover-image`}/>
                         </picture>
                     </Container>
                 </HStack>
@@ -59,7 +59,7 @@ export const Landing: FC = () => {
                     fontSize="3xl"
                     variant="icon"
                     aria-label="down arrow button"
-                    icon={<ChevronDownIcon />}
+                    icon={<ChevronDownIcon/>}
                     onClick={scrollIntoView}
                 ></Button>
             </Flex>

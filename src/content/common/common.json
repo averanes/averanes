@@ -4,10 +4,10 @@
         "mobile": "AVF",
         "desktop": "Adrian Veranes Fonseca"
     },
-    "mainPicture": "/assets/landing/face.jpg",
-    "mainPictureJPG": "/assets/landing/face.jpg",
+    "mainPicture": "assets/landing/face.jpg",
+    "mainPictureJPG": "assets/landing/face.jpg",
     "pronunciation": "",
-    "audioFile": "/assets/xxx.mp3",
+    "audioFile": "assets/xxx.mp3",
     "cssVarPrefix": "hp",
     "email": "averanes@gmail.com",
     "linkedin": "https://www.linkedin.com/in/adri%C3%A1n-veranes-fonseca-a27620162",

@@ -17,8 +17,8 @@
             "Postgresql"
         ],
         "description": "This was a project that allowed the migration of information between 2 different systems (initially: a proprietary system and a Magento system). This allowed 2 different market-type systems to keep their inventories and operations synchronized. The project was developed to allow integration to the migration, to any other system, in a simple way.",
-        "image": "/assets/other-projects/Internet-Idee-logo.webp",
-        "jpg": "/assets/other-projects/Internet-Idee-logo.jpeg"
+        "image": "assets/other-projects/Internet-Idee-logo.webp",
+        "jpg": "assets/other-projects/Internet-Idee-logo.jpeg"
 
     },
     {
@@ -40,8 +40,8 @@
             "Mobile First"
         ],
         "description": "I participated as a frontend developer in the development of this application, working for the Italian company Internet & Idee. The app is a market, the first Avatar-Commerce in the world, where personalized products are offered, after scanning the user's body using a modern disruptive technology and to create a photorealistic 3D copy.",
-        "image": "/assets/other-projects/Igoodi-Banner.webp",
-        "jpg": "/assets/other-projects/Igoodi-Banner.jpeg"
+        "image": "assets/other-projects/Igoodi-Banner.webp",
+        "jpg": "assets/other-projects/Igoodi-Banner.jpeg"
 
     },
     {
@@ -62,8 +62,8 @@
             "Microservices"
         ],
         "description": "This was the 1st project that I developed in the Italian company Internet & Idee. It was a search and information system about places in Tirana (capital of Albania). Here I worked as a Full Stack Developer. I used Vue for the frontend and Laravel for the backend. Later, for my master's thesis in Italy, I developed a place recommendation system in python (Singular value decomposition), which was integrated with the application through microservices.",
-        "image": "/assets/other-projects/I-I-Discover-Tirana-home.webp",
-        "jpg": "/assets/other-projects/I-I-Discover-Tirana-home.jpg"
+        "image": "assets/other-projects/I-I-Discover-Tirana-home.webp",
+        "jpg": "assets/other-projects/I-I-Discover-Tirana-home.jpg"
 
     }
 ]

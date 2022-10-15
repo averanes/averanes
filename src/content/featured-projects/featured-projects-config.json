@@ -1,6 +1,6 @@
 [
   {
-    "id": "featured-project-multi-game",
+    "id": "featured-project-document-manager",
     "title": "Document Manger",
     "year": "Jul 2022 - Present",
     "location": "Spain",
@@ -27,8 +27,8 @@
     "github": "",
     "description": "This application allows the viewing and organization of videos, documents and other types of files. It allows you to filter and find the elements in an agile way and works very smoothly, Netflix style. It has content rating options, save to watch later, favorites, etc. In addition, it allows elements to be grouped by different criteria and when new multimedia is added to the system, related elements are automatically linked. From the backoffice you can fully manage the design of the application and the architecture of the information to be displayed. In addition, the app optimizes the images and automatically converts the videos, to view them in streaming with different qualities and sizes, which improves the user experience.",
     "readMore": "",
-    "image": "/assets/featured-projects/Document-Manager-Home.webp",
-    "jpg": "/assets/featured-projects/Document-Manager-Home.jpeg"
+    "image": "assets/featured-projects/Document-Manager-Home.webp",
+    "jpg": "assets/featured-projects/Document-Manager-Home.jpg"
   },
   {
     "id": "featured-project-multi-game",
@@ -51,8 +51,8 @@
     "github": "",
     "description": "This is a gamification application that is used as a complement for the training of personnel from different companies. It is a multi-game, multi-company and multi-user app that allows you to integrate new games in a simple way, which are accessed in a personalized way for each company, and this is achieved in a very short time from the app administrator. Initially we have built and integrated games created with Construct or developed with vanilla JS, using socket so that the information is updated in real time. In addition, the app has a great content management system and a high degree of customization, which allows each company to have its own customization of the application.",
     "readMore": "",
-    "image": "/assets/featured-projects/MultiGame-Home.webp",
-    "jpg": "/assets/featured-projects/MultiGame-Home.jpeg"
+    "image": "assets/featured-projects/MultiGame-Home.webp",
+    "jpg": "assets/featured-projects/MultiGame-Home.jpg"
   },
   {
     "id": "featured-project-itp-aero",
@@ -75,8 +75,8 @@
     "github": "",
     "description": "Project developed for the company ITP Aero (aeronautical sector), in which its more than 4,000 workers participate in all locations. It is a gamification system for the creation of recognition for workers and the voting and selection of the best. Here the workers are trained on the values of the organization and recognitions are made between the different areas of the company. Then proceed to the voting of said recognitions, where the workers are assigned different medals. The app has an agile filter and search system, a content and configuration management system, reports, a dashboard with summarized information, etc.",
     "readMore": "",
-    "image": "/assets/featured-projects/ITP-Aero-Tablet-Home.webp",
-    "jpg": "/assets/featured-projects/ITP-Aero-Tablet-Home.jpeg"
+    "image": "assets/featured-projects/ITP-Aero-Tablet-Home.webp",
+    "jpg": "assets/featured-projects/ITP-Aero-Tablet-Home.jpg"
   },
   {
     "id": "featured-project-santa-lucia",
@@ -100,8 +100,8 @@
     ],
     "description": "Project developed for the company Santa Lucía, where approximately 1500 workers belonging to the groups of Iris Global, Iris Assistance, Iris Global Asistencia and Iris Global Seguros y Reaseguros participate in an event in stages where the personal mission is created, which must be aligned to that of the company and voting is carried out between the different missions, by areas, within the groups. The application is a gamification where points are accumulated by making certain advances, in addition to obtaining different types of coins granted by the vote of the companions. The app has a powerful content management system, reports, dashboard with summarized information, score graphs, etc.",
     "readMore": "",
-    "image": "/assets/featured-projects/Santa Lucia-Iris-Global-Home.webp",
-    "jpg": "/assets/featured-projects/Santa Lucia-Iris-Global-Home.jpg"
+    "image": "assets/featured-projects/Santa Lucia-Iris-Global-Home.webp",
+    "jpg": "assets/featured-projects/Santa Lucia-Iris-Global-Home.jpg"
   },
   {
     "id": "featured-project-bmw-qcloud",
@@ -123,7 +123,7 @@
       "Firebase"
     ],
     "description": "This is a project that has been running for more than 6 years and I have been in charge of its maintenance since my arrival at the company 3 Weeks.\nIt is a content management system developed for BMW Ibérica where approximately 3000 users access more than 5000 documents. This system manages the documentation, multimedia and online events of BMW in Spain. In addition to content management, easy filtering and searching, it has reports of different metrics, Push Notifications, WebCast with chat and applications in the Play Store and Google Play.\n",
-    "image": "/assets/featured-projects/BMW-QCLoud-Home.webp",
-    "jpg": "/assets/featured-projects/BMW-QCLoud-Home.jpg"
+    "image": "assets/featured-projects/BMW-QCLoud-Home.webp",
+    "jpg": "assets/featured-projects/BMW-QCLoud-Home.jpg"
   }
 ]

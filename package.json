@@ -1,5 +1,7 @@
 {
-  "name": "portfolio-3",
+  "name": "portfolio",
+  "homepageS": "https://averanes.github.io/portfolio",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "framer-motion": "^5",
+    "gh-pages": "^4.0.0",
     "json-loader": "^0.5.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -18,6 +21,7 @@
     "react-markdown": "^8.0.0",
     "react-scripts": "5.0.0",
     "sass": "^1.49.7",
+    "save-dev": "0.0.1-security",
     "typescript": "^4.5.5",
     "web-vitals": "^2.1.4"
   },
@@ -33,7 +37,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "git push prod main"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
