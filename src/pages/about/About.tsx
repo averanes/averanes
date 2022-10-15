@@ -12,14 +12,14 @@ import { VolumeIcon } from "utils/Icons";
 export const About: FC = () => {
     const content = useContent(MarkdownFile.About);
 
-    const onPlay = () => {
+    /*const onPlay = () => {
         const audio = new Audio(configs.common.audioFile);
         audio.play();
-    };
+    };*/
 
     return (
         <Box>
-            <Flex pt="8" gap={{ base: 6, md: 6, lg: 12 }} direction={{ base: "column", md: "row" }}>
+            {/*<Flex pt="8" gap={{ base: 6, md: 6, lg: 12 }} direction={{ base: "column", md: "row" }}>
                 <Box flex="0.35" data-aos="fade-up">
                     <picture>
                         <source type="image/webp" srcSet={configs.common.mainPicture}></source>
@@ -50,7 +50,7 @@ export const About: FC = () => {
                         <Content fontSize="lg">{content.about}</Content>
                     </Box>
                 </Box>
-            </Flex>
+            </Flex>*/}
             <Flex
                 direction={{ base: "column", md: "row" }}
                 gap={{ base: 16, md: 6, lg: 12 }}
@@ -67,9 +67,9 @@ export const About: FC = () => {
             <Box pt="16">
                 <Skills />
             </Box>
-            <Box pt="16">
+           {/* <Box pt="16">
                 <Blog />
-            </Box>
+            </Box>*/}
         </Box>
     );
 };

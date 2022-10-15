@@ -16,6 +16,7 @@ interface ReadMoreProps {
 
 interface LiveDemoProps {
     demo?: string;
+    web?: string;
     display?: any;
 }
 
@@ -74,12 +75,31 @@ export const LiveDemo: FC<LiveDemoProps> = ({ demo, display }) => {
     ) : null;
 };
 
-export const ProjectCardFooter: FC<Props> = ({ readMore, github, demo }) => {
+export const Web: FC<LiveDemoProps> = ({ web, display }) => {
+    const as = useBreakpointValue({ base: IconButton, lg: Button });
+
+    return web ? (
+        <Button
+            data-aos="fade"
+            data-aos-delay="200"
+            as={as}
+            display={display}
+            leftIcon={<LinkIcon fontSize="14pt" />}
+            icon={<LinkIcon fontSize="14pt" />}
+            onClick={() => open(web)}
+        >
+            Web
+        </Button>
+    ) : null;
+};
+
+export const ProjectCardFooter: FC<Props> = ({ readMore, github, demo, web }) => {
     return (
         <Flex justifyContent={readMore ? "space-between" : "flex-end"} alignItems="center" pt="8">
             <ReadMore readMore={readMore} />
-            <Flex gap="4" justifyContent="space-between" alignItems="center" display={demo || github ? "flex" : "none"}>
+            <Flex gap="4" justifyContent="space-between" alignItems="center" display={demo || github || web ? "flex" : "none"}>
                 <LiveDemo demo={demo} />
+                <Web web={web} />
                 <GitHubButton github={github} />
             </Flex>
         </Flex>

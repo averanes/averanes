@@ -1,64 +1,69 @@
 [
     {
-        "id": "other-project-post",
-        "title": "Part of Speech Tagger",
-        "year": "Aug 2019 - Dec 2019",
-        "github": "https://github.com/hrishikeshpaul/post",
-        "demo": "https://hrishikeshpaul.github.io/post/",
-        "tags": ["Python", "Vue", "Flask", "Artificial Intelligence", "Language Processing"],
-        "description": "Post is a simple algorithm that was developed to tag a word in a sentence corresponding to its part of speech. The algorithm makes of a probabilistic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling.",
-        "image": "/assets/other-projects/post.webp",
-        "jpg": "/assets/other-projects/post.jpeg"
+        "id": "other-project-ambassador",
+        "title": "Internet&Idee Ambassador",
+        "year": "Jan 2021 - Apr 2021",
+        "github": "",
+        "demo": "",
+        "tags": [
+            "Spring",
+            "JMS",
+            "Apache ActiveMQ Artemis",
+            "Spring Cloud OpenFeign",
+            "Quartz Job Scheduler",
+            "Maven",
+            "JUnit",
+            "Magento",
+            "Postgresql"
+        ],
+        "description": "This was a project that allowed the migration of information between 2 different systems (initially: a proprietary system and a Magento system). This allowed 2 different market-type systems to keep their inventories and operations synchronized. The project was developed to allow integration to the migration, to any other system, in a simple way.",
+        "image": "/assets/other-projects/Internet-Idee-logo.webp",
+        "jpg": "/assets/other-projects/Internet-Idee-logo.jpeg"
 
     },
     {
-        "id": "other-project-noq",
-        "title": "NoQ Job Portal",
-        "year": "Aug 2019 - Dec 2019",
-        "github": "https://github.com/hrishikeshpaul/noq",
-        "demo": "http://noq-client.herokuapp.com/login",
-        "tags": ["Vue", "NodeJS", "JavaScript", "MongoDB", "Heroku", "Agile", "Sockets", "JIRA"],
-        "description": "NoQ is a tool which allows for both employers and students to skip the hassle seen in modern day career fairs, while effectively pairing up students with employees based on various factors.",
-        "readMore": "https://hrishikeshpaul.medium.com/noq-a-job-portal-for-college-career-fairs-9996bbb37a1c",
-        "image": "/assets/other-projects/noq.webp",
-        "jpg": "/assets/other-projects/noq.jpeg"
+        "id": "other-project-igoodi",
+        "title": "I&I - IGOODI - GET YOUR FREE AVATAR",
+        "year": "Sept 2020 - Feb 2021",
+        "github": "",
+        "demo": "https://xd.adobe.com/view/e71cc001-7c64-462d-9fab-7b7347d999da-b24f",
+        "tags": [
+            "Vue",
+            "Nuxt",
+            "Vuetify",
+            "SPA",
+            "PWA",
+            "SSR",
+            "GraphQL",
+            "Cognito",
+            "Stripe",
+            "Mobile First"
+        ],
+        "description": "I participated as a frontend developer in the development of this application, working for the Italian company Internet & Idee. The app is a market, the first Avatar-Commerce in the world, where personalized products are offered, after scanning the user's body using a modern disruptive technology and to create a photorealistic 3D copy.",
+        "image": "/assets/other-projects/Igoodi-Banner.webp",
+        "jpg": "/assets/other-projects/Igoodi-Banner.jpeg"
+
     },
     {
-        "id": "other-project-bank-compare",
-        "title": "Experience Design Anaysis",
-        "year": "Aug 2019 - Dec 2019",
-        "tags": ["UX Design", "Analysis", "Adobe XD", "Mockups"],
-        "description": "This project demonstrates how the selection of colors, fonts, shapes, languages, layout and other styles can lead to drastically different user experiences, by comparing landing pages of 3 bank websites built from scratch.",
-        "readMore": "https://drive.google.com/file/d/1GY2WmRZgvBgFx6OlAMcAj8_DQVmS5VBw/view",
-        "image": "/assets/other-projects/bank.webp",
-        "jpg": "/assets/other-projects/bank.jpeg"
-    },
-    {
-        "id": "other-project-bunder",
-        "title": "Bunder",
-        "year": "Jan 2020 - Apr 2020",
-        "tags": ["Surveying", "User Interviews", "Ideation", "Analysis", "Product Planning"],
-        "description": "An MVP Proposal - Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them.",
-        "readMore": "https://drive.google.com/file/d/1sj9wL7uEokNpk6VUu3nsiPHf3TZeu4lT/view?usp=sharing",
-        "image": "/assets/other-projects/bunder.webp",
-        "jpg": "/assets/other-projects/bunder.jpeg"
-    },
-    {
-        "id": "other-project-suicide-analyzer",
-        "title": "Suicide Analyzer",
-        "tags": ["AngularJS", "JavaScript", "Express", "NodeJS", "Leaflet", "Heroku", "Python", "Pandas"],
-        "description": "This is a web application, uses a map to demonstrate the number suicides committed around the globe, according to a dataset provided by the WHO.",
-        "github": "https://github.com/hrishikeshpaul/whodata",
-        "image": "/assets/other-projects/suicide-analyzer.webp",
-        "jpg": "/assets/other-projects/suicide-analyzer.jpeg"
-    },
-    {
-        "id": "other-project-nutricare",
-        "title": "Nutricare",
-        "tags": ["AngularJS", "JavaScript", "Express", "NodeJS", "Leaflet", "Heroku", "Python", "Pandas"],
-        "description": "A web app for patients to input nutrient intake data and researchers to analyse the data with the help of graphs and tables. A researcher can conduct studies on N different subjects for a particular problem statement.",
-        "readMore": "https://angel.co/projects/576300-nutricare",
-        "image": "/assets/other-projects/nutricare.webp",
-        "jpg": "/assets/other-projects/nutricare.jpeg"
+        "id": "other-project-discover-tirana",
+        "title": "I&I - Discover Tirana",
+        "year": "Aug 2020 - Nov 2020",
+        "github": "",
+        "demo": "",
+        "tags": [
+            "Vue",
+            "Vuetify",
+            "SPA",
+            "PWA",
+            "JWT",
+            "Laravel",
+            "Python",
+            "IA Recommended System",
+            "Microservices"
+        ],
+        "description": "This was the 1st project that I developed in the Italian company Internet & Idee. It was a search and information system about places in Tirana (capital of Albania). Here I worked as a Full Stack Developer. I used Vue for the frontend and Laravel for the backend. Later, for my master's thesis in Italy, I developed a place recommendation system in python (Singular value decomposition), which was integrated with the application through microservices.",
+        "image": "/assets/other-projects/I-I-Discover-Tirana-home.webp",
+        "jpg": "/assets/other-projects/I-I-Discover-Tirana-home.jpg"
+
     }
 ]

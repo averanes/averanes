@@ -1,30 +1,31 @@
 {
-    "name": "Hrishikesh Paul",
+    "name": "Adrian Veranes Fonseca",
     "logoType": {
-        "mobile": "HP",
-        "desktop": "Hrishikesh Paul"
+        "mobile": "AVF",
+        "desktop": "Adrian Veranes Fonseca"
     },
-    "mainPicture": "/assets/HP.webp",
-    "mainPictureJPG": "/assets/HP.jpeg",
-    "pronunciation": "/ri-shi-kaysh/",
-    "audioFile": "/assets/name-pro.mp3",
+    "mainPicture": "/assets/landing/face.jpg",
+    "mainPictureJPG": "/assets/landing/face.jpg",
+    "pronunciation": "",
+    "audioFile": "/assets/xxx.mp3",
     "cssVarPrefix": "hp",
-    "email": "hrishikeshpaul12@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/hrishikeshpaul/",
-    "github": "https://github.com/hrishikeshpaul",
-    "resume": "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1s3G7PiPHlK3Ett_W-WUU01GQnsggiLrWZB3IiMAgBEk/export?format=pdf",
+    "email": "averanes@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/adri%C3%A1n-veranes-fonseca-a27620162",
+    "github": "https://github.com/averanes",
+    "resume": "https://drive.google.com/file/d/1wyxpxDqF_vYrLAar1zoFqsb3iY7ur0T_/view?usp=sharing",
+    "resume_es": "https://drive.google.com/file/d/1KrBuNF-JSnuj8f8cQu8qS0BvG-7mJbeU/view?usp=sharing",
     "socials": [
         {
             "type": "linkedin",
-            "link": "https://www.linkedin.com/in/hrishikeshpaul/"
+            "link": "https://www.linkedin.com/in/adri%C3%A1n-veranes-fonseca-a27620162"
         },
         {
             "type": "github",
-            "link": "https://github.com/hrishikeshpaul"
+            "link": "https://github.com/averanes"
         },
         {
             "type": "mail",
-            "link": "mailto:hrishikeshpaul12@gmail.com"
+            "link": "mailto:averanes@gmail.com"
         }
     ]
 }

@@ -3,7 +3,7 @@ import { FC } from "react";
 import { Button, HStack, IconButton, Tooltip } from "@chakra-ui/react";
 
 import { configs } from "shared/content/Content";
-import { onResumeOpen, open } from "utils/Functions";
+import {onResumeOpen, onResumeOpenLang, open} from "utils/Functions";
 import { FacebookIcon, GitHubIcon, InstagramIcon, LinkedInIcon, MailIcon, YoutubeIcon } from "utils/Icons";
 
 const LinksToIconMapper: Record<string, JSX.Element> = {
@@ -25,9 +25,14 @@ export const Socials: FC<Props> = ({ resume = true, exclude, delay = 800 }) => {
     return (
         <HStack spacing="5">
             {resume && (
-                <Button data-aos="fade" data-aos-delay={delay} size="lg" borderRadius="xl" mr="2" onClick={onResumeOpen}>
-                    Resume
-                </Button>
+                <>
+                    <Button data-aos="fade" data-aos-delay={delay} size="sm" borderRadius="xl" mr="2" onClick={onResumeOpen}>
+                        Resume En
+                    </Button>
+                    <Button data-aos="fade" data-aos-delay={delay} size="sm" borderRadius="xl" mr="2" onClick={() => onResumeOpenLang('es')}>
+                    Resume Es
+                    </Button>
+                </>
             )}
             {configs.common.socials.map(
                 (social, idx) =>
