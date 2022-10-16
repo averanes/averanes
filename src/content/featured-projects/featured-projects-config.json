@@ -49,7 +49,7 @@
     ],
     "demo": "",
     "github": "",
-    "description": "This is a gamification application that is used as a complement for the training of personnel from different companies. It is a multi-game, multi-company and multi-user app that allows you to integrate new games in a simple way, which are accessed in a personalized way for each company, and this is achieved in a very short time from the app administrator. Initially we have built and integrated games created with Construct or developed with vanilla JS, using socket so that the information is updated in real time. In addition, the app has a great content management system and a high degree of customization, which allows each company to have its own customization of the application.",
+    "description": "This is a gamification application that is used as a complement for the training of personnel from different companies. It is a multi-game, multi-company and multi-user app that allows you to integrate new games in a simple way, which are accessed in a personalized way for each company, and this is achieved in a very short time from the app administrator. Initially we have built and integrated games created with Construct or developed with Vue, so it use socket for updating the information in real time. In addition, the app has a great content management system and a high degree of customization, which allows each company to have its own customization of the application.",
     "readMore": "",
     "image": "assets/featured-projects/MultiGame-Home.webp",
     "jpg": "assets/featured-projects/MultiGame-Home.jpg"
@@ -124,7 +124,7 @@
       "Push Notifications",
       "Firebase"
     ],
-    "description": "This is a project that has been running for more than 6 years and I have been in charge of its maintenance since my arrival at the company 3 Weeks.\nIt is a content management system developed for BMW Ibérica where approximately 3000 users access more than 5000 documents. This system manages the documentation, multimedia and online events of BMW in Spain. In addition to content management, easy filtering and searching, it has reports of different metrics, Push Notifications, WebCast with chat and applications in the Play Store and Google Play.\n",
+    "description": "This is a project that has been running for more than 6 years and I have been in charge of its maintenance since my arrival at the company: 3 Weeks Consulting.\nIt is a content management system developed for BMW Ibérica where approximately 3000 users access more than 5000 documents. This system manages the documentation, multimedia and online events of BMW in Spain. In addition to content management, easy filtering and searching, it has reports of different metrics, Push Notifications, WebCast with chat and applications in the Play Store and Google Play.",
     "image": "assets/featured-projects/BMW-QCLoud-Home.webp",
     "jpg": "assets/featured-projects/BMW-QCLoud-Home.jpg"
   }
