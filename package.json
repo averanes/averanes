@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepageS": "https://averanes.github.io/portfolio",
+  "homepageForGithubPages": "https://averanes.github.io/portfolio",
   "homepage": "./",
   "version": "0.1.0",
   "private": true,
