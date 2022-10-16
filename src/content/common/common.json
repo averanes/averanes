@@ -1,8 +1,8 @@
 {
-    "name": "Adrian Veranes Fonseca",
+    "name": "Adrián Veranes Fonseca",
     "logoType": {
         "mobile": "AVF",
-        "desktop": "Adrian Veranes Fonseca"
+        "desktop": "Adrián Veranes Fonseca"
     },
     "mainPicture": "assets/landing/face.jpg",
     "mainPictureJPG": "assets/landing/face.jpg",
@@ -10,14 +10,14 @@
     "audioFile": "assets/xxx.mp3",
     "cssVarPrefix": "hp",
     "email": "averanes@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/adri%C3%A1n-veranes-fonseca-a27620162",
+    "linkedin": "https://www.linkedin.com/in/averanes",
     "github": "https://github.com/averanes",
-    "resume": "https://drive.google.com/file/d/1wyxpxDqF_vYrLAar1zoFqsb3iY7ur0T_/view?usp=sharing",
+    "resume": "https://drive.google.com/file/d/17n2YSGfKgcxAr8GawMHOLEDuxbHeALep/view?usp=sharing",
     "resume_es": "https://drive.google.com/file/d/1KrBuNF-JSnuj8f8cQu8qS0BvG-7mJbeU/view?usp=sharing",
     "socials": [
         {
             "type": "linkedin",
-            "link": "https://www.linkedin.com/in/adri%C3%A1n-veranes-fonseca-a27620162"
+            "link": "https://www.linkedin.com/in/averanes"
         },
         {
             "type": "github",
